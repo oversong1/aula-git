@@ -1,0 +1,14 @@
+
+ERRO 01
+OBS: Ao tentar adicionar arquivos e ocorrer um bloqueio com o erro abaixo, 
+isso pode significar que existe um arquivo chamado "index.lock" na pasta ".git", que impede a operação de "git add ." 
+Isso pode ocorrer por alguns motivos, como comandos em execução ou travados.
+
+C:\wamp64\www\php\Curso e Afins\Curso GitHub> git add .
+fatal: Unable to create 'C:/wamp64/www/php/Curso e Afins/Curso GitHub/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.

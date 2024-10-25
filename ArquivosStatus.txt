@@ -1,0 +1,4 @@
+Status "U" = criado e ainda não preparado para salvar
+Status "A" = Foi Preparado para ser Salvo
+Status "M" = Arquivo Modificado
+Status "D" = Arquivo Deletado
