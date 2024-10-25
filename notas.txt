@@ -1,0 +1,5 @@
+Iniciando projeto = git init
+verificando o status do projeto = git status
+Preparando para Commitar  Arquivo= git add <NOME DO ARQUIVO>  -  exemplo git add index.html
+Preparando para Commitar Todos os Arquivos = git add .  "O ponto siginifica tudo"
+Salvando uma Versão = git commit , ou = git commit -m "Nota do salvamento" 
