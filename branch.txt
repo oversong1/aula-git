@@ -1,0 +1,3 @@
+No Git, um branch (ou "ramo") é como uma linha do tempo independente do seu código. Quando você cria um branch, é como se você fizesse uma cópia do código em um ponto específico e começasse a trabalhar em uma nova versão sem afetar a linha principal (geralmente chamada de main ou master). Isso é útil para testar novas ideias, corrigir bugs ou desenvolver novas funcionalidades sem interferir no código principal.
+
+Quando você estiver satisfeito com as mudanças feitas no branch, você pode juntar (ou merge) esse branch de volta ao main para integrar as novidades no projeto principal.

@@ -3,4 +3,15 @@ verificando o status do projeto = git status
 Preparando para Commitar  Arquivo= git add <NOME DO ARQUIVO>  -  exemplo git add index.html
 Preparando para Commitar Todos os Arquivos = git add .  "O ponto siginifica tudo"
 Salvando uma Versão = git commit -m "Nota do salvamento" 
-Vendo Versões salva = git log
+Vendo Versões salva = git log , com esse comando voce vai ver por datas os salvamentos do projeto
+Vendo Versões salva = git log --all , com esse comando temos o histórico total de tudo
+
+
+Voltando a uma versão = git checkout
+exemplo: 
+Vamos fazer o comando "git log", e ver as versões salvas essas versão tem o dia e hora e um (ID ou HASH).
+Agora vamos escolher uma versão para voltar o código.
+Comando : git checkout <Colocar o HASH>
+Comando : git checkout 594167f1f7efd2c88e719228d86b17208599ba07
+Agora estamos no commit escolhido, ai temos um comando para ver todos commits
+Comando: git log --all
