@@ -2,3 +2,4 @@ Status "U" = criado e ainda não preparado para salvar
 Status "A" = Foi Preparado para ser Salvo
 Status "M" = Arquivo Modificado
 Status "D" = Arquivo Deletado
+Status "R" = Index Renomeado -> Arquivo Renomeado ou Movido de Lugar
