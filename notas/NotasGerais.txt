@@ -1,0 +1,7 @@
+Anotação para o terminal:
+Quando usar o terminal para ver os log e ele ficar com ":" você deve ir com a seta para baixo
+e quando paracer a palvra "END" você aperta a letra "q" para sair.
+
+BRANCH
+para criar um novo branch(ramificação) usamos o comando
+git checkout -b <Nome da Ramificação>, e ja nos colocar dentro ela

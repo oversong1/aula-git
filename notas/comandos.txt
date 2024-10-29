@@ -7,7 +7,8 @@ Vendo Versões salva = git log , com esse comando voce vai ver por datas os salv
 Vendo Versões salva = git log --all , com esse comando temos o histórico total de tudo
 
 
-Voltando a uma versão = git checkout
+Escolhando uma versão = git checkout <Colocar o HASH>
+Escolhando uma versão Master = git checkout Master - Podemos ir para master direto
 exemplo: 
 Vamos fazer o comando "git log", e ver as versões salvas essas versão tem o dia e hora e um (ID ou HASH).
 Agora vamos escolher uma versão para voltar o código.
@@ -15,3 +16,13 @@ Comando : git checkout <Colocar o HASH>
 Comando : git checkout 594167f1f7efd2c88e719228d86b17208599ba07
 Agora estamos no commit escolhido, ai temos um comando para ver todos commits
 Comando: git log --all
+
+Criando BRANCH
+OBS: Esse comando cria uma cópia do codigo atual, e deixa separado
+do codigo MASTER, assim podemos mudalo sem ter perigo de mudar o codigo
+princial. Posteriormente podemos trazer esse codigo para o master 
+se estiver tudo certo atraves de uma comparação.
+Criando uma ramificação = git checkout -b NomedaRamificação
+comando : git checkout -b somar
+
+Listar branchs existente = git branch
