@@ -26,3 +26,18 @@ Criando uma ramificação = git checkout -b NomedaRamificação
 comando : git checkout -b somar
 
 Listar branchs existente = git branch
+
+GitHub
+Vamos agora incluir comando do git com os comandos do GitHub.
+
+Conectando ao Repositorio
+Adicionando repositorio no projeto = git remote add origin https://github.com/oversong1/aula-git.git
+
+OBS:A flag -u indica que vamos salvar na master e vamos indicar na primeira vez
+Subindo arquivos para o Github = git push -u origin master
+
+Agora vamos fazer o processo completo de comitar git e gitgub
+
+comando01 : git add .   | ou git add <NomeArquivo> 
+comando02 : git commit -m "Nota do Commit"
+comando03 : git push 
