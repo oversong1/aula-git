@@ -41,3 +41,8 @@ Agora vamos fazer o processo completo de comitar git e gitgub
 comando01 : git add .   | ou git add <NomeArquivo> 
 comando02 : git commit -m "Nota do Commit"
 comando03 : git push 
+
+Clonar um repositorio do GitHub
+Esse metodo pega o projetoja existente e seus códigos pasta e faz uma cópia para o computador
+comando: git clone <Link do projeto>
+comando: git clone https://github.com/oversong1/aula-git.git
